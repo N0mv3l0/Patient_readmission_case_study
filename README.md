@@ -81,23 +81,7 @@ Tools and libraries
 - Pandas and NumPy
 - Matplotlib and Seaborn
 - scikit-learn
-Suggested repository structure
-patient-readmission-prediction/
-├── README.md
-├── notebooks/
-│   └── Patient_Readmission_Notebook.ipynb
-├── reports/
-│   └── Patient_Readmission_Report.pdf
-└── assets/
-    └── figures/
-Do not upload identifiable patient information or confidential data. Publish the dataset only if you have permission and it is appropriately anonymised.
-Reproducing the analysis
-1. Open the notebook in a Databricks workspace with access to the source table.
-2. Confirm the source table and column names.
-3. Run the notebook from top to bottom.
-4. Review warnings and verify that all metric outputs are valid.
-5. Correct the feature-selection and threshold-validation gaps listed above.
-6. Update the report so every number matches the final notebook.
+
 References
 - BrightLearn (2026), Machine Learning Case Study: Predicting 30-Day Patient Readmission, Student Brief.
 - Pedregosa, F. et al. (2011), 'Scikit-learn: Machine Learning in Python', Journal of Machine Learning Research, 12, pp. 2825–2830.
